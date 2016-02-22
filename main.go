@@ -41,7 +41,6 @@ func main() {
 	re := regexp.MustCompile(*subDomain)
 
 	command := flag.Args()[0]
-	log.Println(command)
 
 	list, err := getList()
 	if err != nil {
